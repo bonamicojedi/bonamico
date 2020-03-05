@@ -1,0 +1,33 @@
+<widget xmlns="http://www.w3.org/ns/widgets">
+
+
+
+<platform name="android">
+	<icon density="ldpi" src="res/icon/android/ldpi.png"/>
+	<icon density="mdpi" src="res/icon/android/mdpi.png"/>
+	<icon density="hdpi" src="res/icon/android/hdpi.png"/>
+	<icon density="xhdpi" src="res/icon/android/xhdpi.png"/>
+	<icon density="xxhdpi" src="res/icon/android/xxhdpi.png"/>
+	<icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png"/>
+</platform>
+
+<name>
+	Só de Cenoura
+</name>
+
+<description>
+	Menu do restaurante Só de Cenoura
+</description>
+
+<platform name="android"/>
+
+<author>
+ PROF JR
+</author>
+
+<preference name="orientation" value="portrait" />
+<preference name="fullscreen" value="true" />
+<preference name="permissions" value="none" />
+
+
+</widget>
