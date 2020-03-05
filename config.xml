@@ -1,19 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns="http://www.w3.org/ns/widgets"
 		xmlns="http://www.w3.org/ns/widgets"
 		xmlns:gap="http://phonegap.com/ns/1.0"
 		id="br.com.profjr.cenourapp"
 		version="1.0.0">
 
-
-
-<platform name="android">
-	<icon density="ldpi" src="res/icon/android/ldpi.png"/>
-	<icon density="mdpi" src="res/icon/android/mdpi.png"/>
-	<icon density="hdpi" src="res/icon/android/hdpi.png"/>
-	<icon density="xhdpi" src="res/icon/android/xhdpi.png"/>
-	<icon density="xxhdpi" src="res/icon/android/xxhdpi.png"/>
-	<icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png"/>
-</platform>
 
 <name>
 	Só de Cenoura
@@ -23,19 +14,18 @@
 	Menu do restaurante Só de Cenoura
 </description>
 
-<platform name="android"/>
-
 <author>
  PROF JR
 </author>
 
-<icon src="icon.png" />
-<plugin name="cordova-plugin-splashscreen" />
-<splash src="splash.png"/>
 
 <preference name="orientation" value="portrait" />
 <preference name="fullscreen" value="true" />
 <preference name="permissions" value="none" />
+<platform name="android"/>
 
+<icon src="icon.png" />
+<plugin name="cordova-plugin-splashscreen" />
+<splash src="splash.png"/>
 
 </widget>
