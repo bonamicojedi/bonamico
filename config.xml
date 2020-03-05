@@ -2,7 +2,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets"
 		xmlns="http://www.w3.org/ns/widgets"
 		xmlns:gap="http://phonegap.com/ns/1.0"
-		id="br.com.profjr.cenourapp"
+		id="br.com.profjr.cenouraapp"
 		version="1.0.0">
 
 
@@ -19,7 +19,7 @@
 </author>
 
 
-<preference name="orientation" value="portrait" />
+<preference name="portrait" value="orientation" />
 <preference name="fullscreen" value="true" />
 <preference name="permissions" value="none" />
 <platform name="android"/>
