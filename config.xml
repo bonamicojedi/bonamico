@@ -20,4 +20,6 @@
 
     <icon src="icon.png" />
     <plugin name="cordova-plugin-splashscreen" />
-    <splash sr
+    <splash src="splash.png"/>
+
+</widget>
