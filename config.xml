@@ -7,11 +7,11 @@
 
 
 <name>
-	Só de Cenoura
+	SÃ³ de Cenoura
 </name>
 
 <description>
-	Menu do restaurante Só de Cenoura
+	Menu do restaurante SÃ³ de Cenoura
 </description>
 
 <author href="http://profjr.com.br" email="contato@profjr.com.br">
@@ -26,6 +26,6 @@
 
 <icon src="icon.png" />
 <plugin name="cordova-plugin-splashscreen" />
-<splash src="splash.png"/>
+<splash src="splash.png" />
 
 </widget>
