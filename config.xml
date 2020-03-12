@@ -1,25 +1,24 @@
-a<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="br.com.profjr.cenouraapp"
+        version="1.0.0">
+    <name>
+        Só de Cenoura
+    </name>
+    <description>
+        Menu do restaurante Só de Cenoura.
+    </description>
+    <author href="http://profjr.com.br" email="contato@profjr.com.br">
+        Prof JR
+    </author>
 
-<widget version="1.0.0" id="br.com.profjr.cenouraapp" xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets">
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <preference name="permissions" value="none" />
+    <platform name="android" />
 
-<name> Só de Cenoura </name>
-
-<description>Menu do restaurante Só de Cenoura. </description>
-
-<author email="contato@profjr.com.br" href="http://profjr.com.br">Prof JR </author>
-
-<preference value="portrait" name="orientation"/>
-
-<preference value="true" name="fullscreen"/>
-
-<preference value="none" name="permissions"/>
-
-<platform name="android"/>
-
-<icon src="icon.png"/>
-
-<plugin name="cordova-plugin-splashscreen"/>
-
-<splash src="splash.png"/>
-
+    <icon src="icon.png" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <splash src="splash.png" />
 </widget>
